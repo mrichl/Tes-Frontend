@@ -1,0 +1,48 @@
+.numb {
+    text-align: center;
+    padding: 10px;
+}
+
+.box {
+    
+    margin: 10px;
+    width: 260px;
+    height: 30px;
+}
+#title {
+    text-align: center;
+    font-family: cursive;
+    font-size: 24px;
+}
+.check {
+    height: 20px;
+    width: 25px ;
+    text-decoration: none;
+  background-color: #eee;
+}
+
+.calculate {
+    text-align:center;
+}
+.operator {
+    width: 32px;
+    padding: 1px;
+    font-size: 22px;
+    margin: 0 15px ;
+}
+.hasil {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.hasil>input {
+    width: 200px;
+    height: 25px;
+    padding: 2px;
+}
+
+.btm {
+    text-align: center;
+    margin-top: 90px;
+    font-family: monospace;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/index.css" type="text/css">
+</head>
+<body>
+    <div id="title"> <h1>Calculator</h1></div>
+
+    <div class="numb">
+    <input type="number" id="number1" class="box">
+    <input type="checkbox" id="check1" class="check"> <br>
+    </div>
+
+    <div class="numb">
+        <input type="number" id="number2" class="box">
+        <input type="checkbox" id="check2" class="check"> <br>
+    </div>
+
+    <div class="numb">
+        <input type="number" id="number3" class="box">
+        <input type="checkbox" id="check3" class="check"> <br>
+    </div>
+
+    <div class="calculate">
+        <button class="operator" onclick="add()">+</button>
+        <button class="operator" onclick="subtract()">-</button>
+        <button class="operator" onclick="multiply()">x</button>
+        <button class="operator" onclick="divide()">/</button>    
+    </div>
+    <br>
+<hr>
+    <div class="hasil">
+        hasil = <input type="text" id="result">
+    </div>
+
+    <script src="resources/javascript/index.js"></script>
+</body>
+</html>
